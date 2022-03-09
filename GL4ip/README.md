@@ -31,7 +31,7 @@ In GL4ip, each file has a specific role:
       GL4ip_inv_A_ImpImpL_L.v  ==>  shows a lemma pertaining to the left-invertibility in GL4ip of the rule (->->L)
                   GL4ip_ctr.v  ==>  shows that GL4ip admits contraction
            GL4ip_inv_ImpL_R.v  ==>  shows that the rule (->L) is right-invertible in GL4ip
-PSGL4ip_termination_measure.v  ==>  defines the measure to show the termination of PSGL4ip
-        PSGL4ip_termination.v  ==>  shows the termination of PSGL4ip
+           PSGL4ip_termination_measure.v  ==>  defines the measure to show the termination of PSGL4ip
+           PSGL4ip_termination.v  ==>  shows the termination of PSGL4ip
          GL4ip_additive_cut.v  ==>  shows that GL4ip admits cut
              GL4ip_cut_elim.v  ==>  shows that cut is eliminable from GL4ip + cut
