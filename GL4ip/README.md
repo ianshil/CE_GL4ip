@@ -12,10 +12,10 @@ NOTES
 In GL4ip, each file has a specific role:
 
             DLW_WO_list_nat.v  ==>  defines the shortlex order << (authored by Dominique Larchey-Wendling)
-        GL4ip_PSGL4ip_calcs.v  ==>  defines the formal language, as well as the GL4ip and PSGL4ip calculi
-  GL4ip_PSGL4ip_remove_list.v  ==>  defines the operation remove_list on list of formulae
-    GL4ip_PSGL4ip_list_lems.v  ==>  states useful lemmas about list of formulae
-          GL4ip_PSGL4ip_dec.v  ==>  shows that the applicability of the rules of GL4ip and PSGL4ip is decidable
+        GL4ip_PSGL4ip_calcs.v  ==>  defines the formal language, as well as the GL4ip and PSGL4ip calculus
+        GL4ip_PSGL4ip_remove_list.v  ==>  defines the operation remove_list on list of formulae
+        GL4ip_PSGL4ip_list_lems.v  ==>  states useful lemmas about list of formulae
+        GL4ip_PSGL4ip_dec.v  ==>  shows that the applicability of the rules of GL4ip and PSGL4ip is decidable
                  GL4ip_exch.v  ==>  shows that GL4ip admits exchange
                   GL4ip_wkn.v  ==>  shows that GL4ip admits weakening
              GL4ip_inv_ImpR.v  ==>  shows that the rule (->R) is invertible in GL4ip
