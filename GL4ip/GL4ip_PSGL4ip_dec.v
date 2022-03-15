@@ -11,10 +11,7 @@ Require Import existsT.
 Require Import univ_gen_ext.
 Require Import GL4ip_PSGL4ip_list_lems.
 Require Import dd_fc.
-Require Import PeanoNat.
-Require Import strong_inductionT.
 Require Import GL4ip_PSGL4ip_remove_list.
-Require Import Lia.
 
 Set Implicit Arguments.
 
