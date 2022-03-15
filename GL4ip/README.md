@@ -35,3 +35,8 @@ In GL4ip, each file has a specific role:
                    PSGL4ip_termination.v  ==>  shows the termination of PSGL4ip
                     GL4ip_additive_cut.v  ==>  shows that GL4ip admits cut
                         GL4ip_cut_elim.v  ==>  shows that cut is eliminable from GL4ip + cut
+
+Acknowledgement 
+-----
+
+The file DLW_WO_list_nat.v was authored by Dominique Larchey-Wendling and graciously shared with us.
