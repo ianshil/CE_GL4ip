@@ -9,9 +9,6 @@ Require Import List_lemmasT.
 Require Import existsT.
 Require Import univ_gen_ext.
 Require Import dd_fc.
-Require Import PeanoNat.
-Require Import strong_inductionT.
-Require Import Lia.
 
 
 
