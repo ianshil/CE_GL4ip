@@ -6,7 +6,6 @@ Require Import genT gen.
 Require Import ddT.
 Require Import dd_fc.
 Require Import strong_inductionT.
-Require Import GL4ip_exch.
 Require Import GL4ip_additive_cut.
 Require Import Lia.
 
