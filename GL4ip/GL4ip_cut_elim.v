@@ -4,32 +4,9 @@ Export ListNotations.
 
 Require Import genT gen.
 Require Import ddT.
-Require Import gen_tacs.
-Require Import gen_seq.
-Require Import List_lemmasT.
-Require Import existsT.
-Require Import univ_gen_ext.
-Require Import GL4ip_PSGL4ip_list_lems.
 Require Import dd_fc.
-Require Import PeanoNat.
 Require Import strong_inductionT.
-Require Import PSGL4ip_termination_measure.
-Require Import PSGL4ip_termination.
 Require Import GL4ip_exch.
-Require Import GL4ip_ctr.
-Require Import GL4ip_Id.
-Require Import GL4ip_wkn.
-Require Import GL4ip_inv_ImpL_R.
-Require Import GL4ip_inv_AndImpL.
-Require Import GL4ip_inv_OrImpL.
-Require Import GL4ip_inv_AndR_AndL.
-Require Import GL4ip_inv_AtomImpL.
-Require Import GL4ip_inv_ImpImpL_R.
-Require Import GL4ip_inv_ImpImpL_L.
-Require Import GL4ip_inv_ImpR.
-Require Import GL4ip_inv_OrL.
-Require Import GL4ip_PSGL4ip_remove_list.
-Require Import GL4ip_PSGL4ip_dec.
 Require Import GL4ip_additive_cut.
 Require Import Lia.
 
