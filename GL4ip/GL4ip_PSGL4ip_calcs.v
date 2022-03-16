@@ -447,4 +447,4 @@ Inductive PSGL4ip_rules : rlsT  (prod (list (MPropF V)) (MPropF V)) :=
                                     (BotLRule [] c -> False) -> GLRRule ps c -> PSGL4ip_rules ps c
 .
 
-
+Definition GL4ip_prv s := derrec GL4ip_rules (fun _ => False) s.
