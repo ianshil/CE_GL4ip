@@ -4903,8 +4903,6 @@ assert (J1: derrec_height X = derrec_height X). auto.
 pose (GL4ip_hpadm_list_exch_L (derrec_height X) s X J1 se H). destruct s0. auto.
 Qed.
 
-Definition GL4ip_prv s := derrec GL4ip_rules (fun _ => False) s.
-
 Definition exch s se := @list_exch_L s se.
 
 Lemma GL4ip_adm_exch : forall s,
