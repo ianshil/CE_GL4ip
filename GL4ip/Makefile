@@ -62,7 +62,7 @@ clean_coq :
 	rm -rf  *.vo *.glob *.v~
 
 clean_general :
-	cd ../general && rm *.vo *.glob && cd ../GL
+	cd ../general && rm *.vo *.glob && cd ../GL4ip
 
 clean_GL : clean_coq 
 
