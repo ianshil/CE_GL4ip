@@ -54,7 +54,7 @@ PSGL4ip_termination_measure.vo : PSGL4ip_termination_measure.v GL4ip_PSGL4ip_cal
 
 GL4ip_additive_cut.vo : GL4ip_additive_cut.v GL4ip_PSGL4ip_calcs.vo ../general/gen.vo ../general/genT.vo ../general/ddT.vo ../general/gen_tacs.vo ../general/gen_seq.vo ../general/List_lemmasT.vo ../general/existsT.vo ../general/univ_gen_ext.vo ../general/dd_fc.vo GL4ip_PSGL4ip_list_lems.vo ../general/strong_inductionT.vo PSGL4ip_termination_measure.vo PSGL4ip_termination.vo GL4ip_exch.vo GL4ip_wkn.vo GL4ip_Id.vo GL4ip_ctr.vo GL4ip_inv_ImpL_R.vo GL4ip_inv_AndImpL.vo GL4ip_inv_OrImpL.vo GL4ip_inv_AndR_AndL.vo GL4ip_inv_AtomImpL.vo GL4ip_inv_ImpImpL_R.vo GL4ip_inv_ImpImpL_L.vo GL4ip_inv_ImpR.vo GL4ip_inv_OrL.vo GL4ip_PSGL4ip_remove_list.vo GL4ip_PSGL4ip_dec.vo
 
-GL4ip_cut_elim.vo : GL4ip_cut_elim.v ../general/gen.vo ../general/genT.vo ../general/ddT.vo ../general/dd_fc.vo ../general/strong_inductionT.vo GL4ip_additive_cut.vo
+GL4ip_cut_elim.vo : GL4ip_cut_elim.v ../general/gen.vo ../general/genT.vo ../general/ddT.vo ../general/dd_fc.vo ../general/strong_inductionT.vo GL4ip_PSGL4ip_calcs.vo GL4ip_additive_cut.vo
 
 
 
