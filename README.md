@@ -1,5 +1,5 @@
 # CE_GL4ip
-Coq formalisation of cut-elimination via backward proof-search for GL4ip
+Coq formalisation of cut-elimination via backward proof-search for GL4ip.
 
 By Rajeev Goré and Ian Shillito.
 
