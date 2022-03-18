@@ -5,4 +5,4 @@ Extraction Language Haskell.
 
 Unset Extraction Optimize.
 
-Time Separate Extraction GL4ip_cut_elimination.
+Extraction GL4ip_cut_elimination.
