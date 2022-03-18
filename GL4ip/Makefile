@@ -56,6 +56,7 @@ GL4ip_additive_cut.vo : GL4ip_additive_cut.v GL4ip_PSGL4ip_calcs.vo ../general/g
 
 GL4ip_cut_elim.vo : GL4ip_cut_elim.v ../general/gen.vo ../general/genT.vo ../general/ddT.vo ../general/dd_fc.vo ../general/strong_inductionT.vo GL4ip_PSGL4ip_calcs.vo GL4ip_additive_cut.vo
 
+GL4ip_cut_extraction_theorem.vo : GL4ip_cut_extraction_theorem.v GL4ip_cut_elim.vo
 
 
 clean_coq :
